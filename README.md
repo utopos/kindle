@@ -27,6 +27,13 @@ clippings == [
 ```
 
 ## Installation
+```elixir
+def deps do
+  [
+{:kindle, git: "https://github.com/utopos/kindle"}
+]
+end
+```
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed
 by adding `kindle` to your list of dependencies in `mix.exs`:
